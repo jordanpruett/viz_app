@@ -13,6 +13,7 @@ from dash.exceptions import PreventUpdate
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.UNITED])
 
+server = app.server
 
 # --------------------
 # Import data
@@ -269,4 +270,4 @@ def update_author(author_selection):
 # ---------------------
 # Run app
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
