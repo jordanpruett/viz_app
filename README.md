@@ -3,6 +3,6 @@ Dash app for exploring results of a text classification project on the US Novel 
 
 Displays genre predictions for each novel, confidence scores for predictions, and a t-sne projection of the underlying textual features, colored by genre.
 
-You can read a blog post about the project [here](https://textual-optics-lab.blogspot.com/2020/07/machine-learning-for-genre.html.).
+You can read a blog post about the project [here](https://textual-optics-lab.blogspot.com/2020/07/machine-learning-for-genre.html).
 
 And you can see the app in action at [this link](https://classifier-viz-app.herokuapp.com/). 
