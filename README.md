@@ -1,7 +1,7 @@
 # viz_app
-Dash app for exploring results of a text classification project on the US Novel Corpus 1880-2000 for the Textual Optics Lab. 
+Dash app for exploring results of a text classification project on the US Novel Corpus 1880-2000 for the Textual Optics Lab. Full texts of 9,089 novels were represented as TF-IDF vectors, then those with a Library of Congress genre tag were used as training data to predict the genre of those without a tag. Classification used logistic regression on the top 10,000 words by document frequency. 
 
-Displays genre predictions for each novel, confidence scores for predictions, and a t-sne projection of the underlying textual features, colored by genre.
+The app displays genre predictions for each novel, confidence scores for predictions, and a t-SNE projection of the underlying TF-IDF features, colored by Library of Congress genre.
 
 You can read a blog post about the project [here](https://textual-optics-lab.blogspot.com/2020/07/machine-learning-for-genre.html).
 
